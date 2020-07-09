@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--new colors-->
+    <color name="gray_light">#EBEDF0</color>
+    <color name="gray_light_trans">#B3EBEDF0</color>
+    <color name="gray_light_dim">#80EBEDF0</color>
+    <color name="gray_light_ghost">#4DEBEDF0</color>
+    <color name="gray_medium">#575A61</color>
+    <color name="gray_dark">#2A2C2E</color>
+    <color name="gray_more_dark">#202324</color>
+    <color name="gray_darker">#151617</color>
+
+    <color name="blue_prime">#005AA8</color>
+    <color name="blue_dark">#00325D</color>
+    <color name="blue_active">#007AFF</color>
+    <color name="all_transparent">#00000000</color>
+
+    <!--new colors in context-->
+    <color name="gray_bg">@color/gray_dark</color>
+    <color name="gray_status_bar_bg">@color/gray_darker</color>
+    <color name="text_title">@color/gray_light</color>
+    <color name="text_subtitle">@color/gray_light_dim</color>
+    <color name="text_regular">@color/gray_light</color>
+    <color name="secondary_color">@color/blue_dark</color>
+    <color name="primary_color">@color/blue_prime</color>
+    <color name="active_color">@color/blue_active</color>
+
+    <!-- common colors -->
+    <color name="red">#B30000</color>
+
+    <!-- colors - number in name represents the opacity-->
+
+
+    <color name="white_full">#FFFFFFFF</color>
+    <color name="white_90">#E6FFFFFF</color>
+    <color name="white_80">#CCFFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="white_54">#8AFFFFFF</color>
+    <color name="white_30">#4DFFFFFF</color>
+    <color name="white_20">#33FFFFFF</color>
+
+    <color name="black_full">#000000</color>
+    <color name="black_70">#B3000000</color>
+    <color name="black_54">#8A000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="black_34">#57000000</color>
+    <color name="black_30">#4D000000</color>
+    <color name="black_20">#33000000</color>
+    <color name="black_19">#30000000</color>
+    <color name="black_10">#1A000000</color>
+    <color name="black_5">#0D000000</color>
+    <color name="black_1">#03000000</color>
+
+    <!-- grey first number grey, second opacity-->
+
+    <color name="grey_99_20">#33999999</color>
+    <color name="grey_F3_50">#80F3F3F3</color>
+    <color name="grey_70_full">#FF707070</color>
+
+
+    <!-- background colors-->
+    <color name="bg_main_light">#FFF5F5F5</color>
+    <color name="bg_main_dark">#FF141414</color>
+    <color name="bg_secondary_light">#FFF5F5F5</color>
+    <color name="bg_splash_light">#FFF5F5F5</color>
+    <color name="bg_splash_dark">#FF141414</color>
+    <color name="bg_outputscreen_light">#FFEEEEEE</color>
+    <color name="bg_tab_light">#FFF5F5F5</color>
+
+    <!-- dialog transparent bg colors -->
+    <color name="default_bg_info_dialog">#C0000000</color>
+
+
+
+    <color name="text_body">#8A000000</color>
+
+    <!--temporary onboarding-->
+
+    <color name="idle_onboarding">#575a61</color>
+
+
+    <color name="bg_optionsMenu_light">@color/bg_main_light</color>
+
+</resources>

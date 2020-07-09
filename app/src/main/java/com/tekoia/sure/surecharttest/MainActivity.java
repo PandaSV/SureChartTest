@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
             //xAxis.addLimitLine(llXAxis);
         }
 
-        setData(chart, 6, 150f);
+        setData(chart, 8, 150f);
     }
 
     private void setData(final LineChart chart, int count, float range) {

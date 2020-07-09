@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
             chart.notifyDataSetChanged();
         } else {
             // create a dataset and give it a type
-            set1 = new LineDataSet(values, "Pulse");
+            set1 = new LineDataSet(values, "BPM");
 
             set1.setDrawIcons(false);
 

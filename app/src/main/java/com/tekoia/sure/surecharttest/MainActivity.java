@@ -120,6 +120,8 @@ public class MainActivity extends AppCompatActivity {
             // create a dataset and give it a type
             set1 = new LineDataSet(values, "BPM");
 
+            int useless = 0;
+
             set1.setDrawIcons(false);
 
             // draw dashed line

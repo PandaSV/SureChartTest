@@ -19,3 +19,7 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+#-keep class com.tekoia.sure.surecharttest.MainActivity { *; }
+
+-keep class androidx.appcompat.app.** { *; }

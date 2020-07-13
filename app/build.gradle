@@ -13,6 +13,25 @@ android {
     repositories {
         maven { url 'https://jitpack.io' }
     }
+
+    flavorDimensions "flavor"
+    productFlavors {
+        reg {
+
+        }
+        alt {
+            versionNameSuffix ".alt"
+        }
+    }
+    sourceSets {
+        reg {
+            java.srcDirs = ['src/reg/java']
+        }
+        alt {
+            java.srcDirs = ['src/alt/java']
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled true

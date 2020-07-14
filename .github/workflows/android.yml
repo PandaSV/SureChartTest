@@ -29,7 +29,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: v1.0.5
-          asset_path: app/build/outputs/apk/alt/debug/app-debug.apk
-          asset_name: SureGatewayHomeCareTestBuild.apk
+          tag_name: v1.0.6
+          asset_path: app/build/outputs/apk/alt/debug/app-alt-debug.apk
+          asset_name: MyApk.apk
           asset_content_type: application/zip

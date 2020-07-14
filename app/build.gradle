@@ -17,10 +17,10 @@ android {
     flavorDimensions "flavor"
     productFlavors {
         reg {
-
+            versionNameSuffix ".reg"
         }
         alt {
-            //versionNameSuffix ".alt"
+            versionNameSuffix ".alt"
         }
     }
     sourceSets {

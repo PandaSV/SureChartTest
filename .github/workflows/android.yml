@@ -25,11 +25,11 @@ jobs:
         run: ./gradlew clean assembleAltDebug
 
       - name: Create release and upload apk
-        uses: underwindfall/create-release-with-debugapk@v2.0.0
+        uses: sureuniversal/create-release-with-debugapk@v2.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: v1.0.6
+          tag_name: v1.0.7
           asset_path: app/build/outputs/apk/alt/debug/app-alt-debug.apk
-          asset_name: MyApk.apk
+          asset_name: MyApkK.apk
           asset_content_type: application/zip
